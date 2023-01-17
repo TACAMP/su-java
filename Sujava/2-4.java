@@ -3,7 +3,7 @@
 // ですが、それをみんな強制的に無理やり行うことができる。
 
 
-public class Main{
+public class Age{
     public static void main( String [] args ){
         int age = ( int ) 3.2;
         System.out.println( age );
