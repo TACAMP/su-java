@@ -21,4 +21,11 @@ public class Age{
 // キャストを用いても変換できない型の組み合わせも存在しますし、データの欠損が不具合に繋がることがある。
 // 最終手段として、どうしても必要な場合もあるが、よっぽどのことがない限り使わないと覚えておくようにしましょう。
 
+public class Main {
+    public static void main( String[]args ){
+        int age = 3;
+        System.out.println( age );
+    }
+}
+
 
