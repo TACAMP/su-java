@@ -25,9 +25,10 @@ public class Main {
     public static void main( String[]args ){
         int age = 3;
         System.out.println( age );
+        boolean bool = true;
+        System.out.println(bool);
     }
 }
 
-++--++--++--
 
 
