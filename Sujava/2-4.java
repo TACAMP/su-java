@@ -3,12 +3,12 @@
 // ですが、それをみんな強制的に無理やり行うことができる。
 
 
-public class Age{
-    public static void main( String [] args ){
-        int age = ( int ) 3.2;
-        System.out.println( age );
-    }
-}
+// public class Age{
+//     public static void main( String [] args ){
+//         int age = ( int ) 3.2;
+//         System.out.println( age );
+//     }
+// }
 
 // 実行結果は3となります。
 // 3.2というdouble型リテラルの前に記述された「(int)」= 強制的な型変換を指示する「キャスト演算子」
@@ -21,12 +21,26 @@ public class Age{
 // キャストを用いても変換できない型の組み合わせも存在しますし、データの欠損が不具合に繋がることがある。
 // 最終手段として、どうしても必要な場合もあるが、よっぽどのことがない限り使わないと覚えておくようにしましょう。
 
-public class Main {
-    public static void main( String[]args ){
-        int age = 3;
-        System.out.println( age );
-        boolean bool = true;
-        System.out.println(bool);
+// public class Main {
+//     public static void main( String[]args ){
+//         int age = 3;
+//         System.out.println( age );
+//         boolean bool = true;
+//         System.out.println(bool);
+//     }
+// }
+
+public class Main{
+    public static void main( String [] args ){
+        int[] ages = {21,23,46,48};
+
+        int allAge = 0;
+
+        for (int age:ages){
+            allAge += age;
+        }
+
+        System.out.println(allAge);
     }
 }
 
