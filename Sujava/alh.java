@@ -1,6 +1,7 @@
 public class Fizzbuzz{
     public static void main( String [] args ){
         fizzbuzz();
+        names();
         }
     
     public static void fizzbuzz(){
@@ -15,5 +16,10 @@ public class Fizzbuzz{
                 System.out.println(i);
             }
         }
+    }
+
+    public static void names(){
+        String names[] = {"yamada","oizumi"};
+        System.out.println(names[1]);
     }
 }
