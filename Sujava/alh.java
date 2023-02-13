@@ -20,6 +20,6 @@ public class Fizzbuzz{
 
     public static void names(){
         String names[] = {"yamada","oizumi yo"};
-        System.out.println(names[1]);
+        System.out.println(names[2]);
     }
 }
